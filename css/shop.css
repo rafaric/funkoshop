@@ -1,0 +1,129 @@
+.shop-main {
+  display: flex;
+  padding: var(--spacing-68) 0
+}
+
+.shop-main__filtros {
+  display: flex;
+  flex-direction: column;
+  flex: 0 calc(10% - 10px);
+  gap: var(--spacing-36);
+}
+
+.shop-main__precio,
+.shop-main__filtro,
+.shop-main__ordenar,
+.shop-main__buscar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-16);
+}
+
+.shop-main__filtros-titulo {
+  font-size: var(--font-large);
+  font-weight: 500;
+
+}
+
+.shop-main__input,
+.shop-main__min-max-input,
+#specials,
+#news,
+#offers,
+#favs {
+  padding: var(--spacing-12);
+  font-size: var(--font-medium);
+  border: 2px solid var(--dark-bg-solid);
+  box-shadow: inset .6px .6px 1px 1px var(--dark-bg-solid);
+  border-radius: 6px;
+}
+
+
+
+.shop-main__min-max {
+  font-size: var(--font-small);
+  font-weight: 500;
+  display: block;
+
+
+}
+
+.shop-main__min-max-input {
+  display: block;
+  width: 20%;
+  padding: 0 var(--spacing-16);
+  margin: var(--spacing-8);
+  font-size: var(--font-medium);
+  text-align: center;
+}
+
+.shop-main__filtros-content {
+  display: grid;
+  padding: var(--spacing-8);
+  grid-template-columns: 10% 90%;
+  gap: var(--spacing-8);
+}
+
+.shop-main__filtro-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.shop-main__contenido {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  align-items: center;
+  justify-items: center;
+  padding: var(--spacing-8) var(--spacing-16);
+}
+
+.shop-main__contenido-label {
+  font-size: var(--font-medium);
+  font-weight: 500;
+}
+
+.paginator {
+  display: flex;
+  margin-top: var(--spacing-68);
+  grid-column: 1 / span 3;
+  gap: var(--spacing-8);
+}
+
+.paginator__button {
+  padding: var(--spacing-8) var(--spacing-16);
+  background-color: var(--light-bg-color);
+  border: 1px solid #DFE3E8;
+  font-size: var(--font-small);
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.paginator__button:hover {
+  background-color: var(--primary-solid);
+  transition: all .5s ease-in;
+}
+
+.disabled {
+  background-color: #919eab;
+  color: #C4CDD5;
+}
+
+.disabled:hover {
+  background-color: #919eab;
+}
+
+.active {
+  border: 1px solid var(--primary-solid);
+  color: var(--primary-solid);
+}
+
+.active:hover {
+  color: var(--light-bg-solid);
+}
+
+.change {
+  color: #C4CDD5;
+}
