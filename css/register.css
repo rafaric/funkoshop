@@ -94,3 +94,19 @@ input:hover {
   color: var(--secondary-solid);
   width: fit-content;
 }
+
+.form__login {
+  display: flex;
+  justify-content: center;
+  grid-row: span 2;
+
+  overflow: visible;
+  align-items: center;
+  width: 540px;
+}
+
+.forgot_pass {
+  font-size: var(--font-small);
+  color: var(--secondary-solid);
+  padding-bottom: var(--spacing-28);
+}
