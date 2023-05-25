@@ -78,3 +78,7 @@ td {
 td>a>img {
   width: 32px;
 }
+
+.short {
+  width: 20px;
+}
