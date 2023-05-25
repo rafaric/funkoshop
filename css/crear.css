@@ -20,6 +20,7 @@ form {
 .cat-lic__container {
   display: flex;
   gap: var(--spacing-28);
+  align-items: center;
 }
 
 .cat-lic {
